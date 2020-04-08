@@ -1,0 +1,36 @@
+<HTML>
+	<HEAD>
+		<TITLE> TUGAS 2: DOKUMEN INTERNAL </TITLE>
+		<SCRIPT language="JavaScript">
+		<!-- hanya untuk Browser versi 3.0 ke atas
+			function passwd()
+				{
+					form = document.Password.form.value;
+					form = form+".html";
+					location.href=form;
+				}
+		// -->
+		</SCRIPT>
+		
+		<STYLE>
+			div{
+				max-width: 70%;
+				margin: auto;
+				margin-top: 50px;
+		</STYLE>
+	</HEAD>
+
+	<BODY>
+		<div>
+			<BR><p align="center"><FONT size="14"> HALAMAN LOGIN </FONT>
+			<BR><BR><B> (Masukkan password lalu klik tombol logon, bukan enter)</B><BR>
+ 
+			<FORM name="Password" align="center">
+			Password:
+				<INPUT type="password" name="form" value="selamatdatang">
+				<INPUT type="button" name="Tombol" value="logon" onclick="passwd()">
+
+			</FORM>
+		</div>
+	</BODY>
+</HTML>
