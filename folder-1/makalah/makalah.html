@@ -1,0 +1,141 @@
+<html>
+
+	<head>
+		<title>Hubungan HTML, CSS, dan JavaScript</title>	
+		
+		<style>
+	
+		body{
+			max-width: 65%;
+			margin: auto;
+			margin-top: 30px;
+			margin-bottom: 30px;
+			text-align: justify;
+			font-family: verdana;
+			line-height: 28px;
+		}
+		
+		h4{
+			text-align: right;
+			margin: 0px;
+			font-size: 80%;
+		}
+			
+		h2{
+			text-align: center;
+		}
+		
+		img{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
+			}
+		
+	</style>
+	
+	</head>
+	
+	<body>
+	
+		<h4>UTS PRAKTIK SISTEM KOMUNIKASI BERGERAK</h4>
+		<h4>ANDHIKA PRADANA PUTRA (061730330247)</h4>
+		<hr>
+		
+		<img src="html_css_js.jpg">
+		
+		<h2>Hubungan HTML, CSS, dan JavaScript <br>dalam Pembuatan Halaman Web</h2>
+		
+		<p align="center">***</p>
+		
+		<p>Dalam membangun sebuah halaman web yang utuh dan berfungsi dengan baik, pada dasarnya, ada tiga unsur yang tidak dapat dipisahkan satu sama lain. Ketiga unsur ini adalah HTML, CSS, dan Javascript. Ketiganya saling berhubungan dan melengkapi antara satu sama lain.</p>
+		
+		<p>HTML (alias <i>Hyper Text Markup Language</i>) pada dasarnya bukan merupakan bahasa pemograman. Begitu juga dengan CSS (alias <i>Cascading Style Sheet</i>). Bila dibandingkan dengan JavaScript, baik HTML dan CSS sebetulnya hanya digunakan sebagai media untuk “menampilkan” informasi, dan bukan “mengolah” informasi seperti bahasa pemograman kebanyakan.</p>
+		
+		<p>Secara ringkas, fungsi ketiganya dapat dijelaskan sebagai berikut:</p>
+		
+		<ul>
+			<li>HTML digunakan untuk menjelaskan struktur dasar dari data yang hendak ditampilkan di halaman web, seperti teks, gambar, juga video, untuk kemudian disusun dan dimodifikasi oleh CSS dan JavaScript.</li>
+			<li>CSS digunakan untuk mengendalikan bagaimana data tersebut akan ditampilkan, baik dari pewarnaannya, layout-nya, hingga format penampilannya.</li>
+			<li>JavaScript digunakan untuk mengendalikan sifat dan perilaku dari elemen yang ada di halaman web, seperti mengatur proses login, memberikan efek, atau semacamnya.</li>
+		</ul>
+		
+		<p>Artikel ini bertujuan untuk menjelaskan pengertian dari ketiganya, memberikan penjelasan singkat bagaimana mereka bekerja, dan bagaimana ketiganya bersinergi untuk menghasilkan sebuah halaman web.</p>
+		
+		<p align="center">***</p>
+			
+		<h3>1. HTML</h3>
+		
+		<p>HTML adalah inti dari semua halaman web. Tidak pedulli secanggih atau sebanyak apa teknologi <i>website</i> yang digunakan, HTML tetap merupakan kerangka utamanya. HTML adalah titik awal pembuatan sebuah halaman web.</p>
+		
+		</p>HTML bertugas untuk menghadirkan informasi yang hendak ditampilkan, dan kemudian menggolongkan informasi tersebut ke dalam beberapa tipe sehingga dapat kita kendalikan dengan CSS juga JavaScript.</p>
+		
+		<img src="gambar_html.jpg" align="center">
+		
+		<p>Dari gambar di atas sebagai contoh, misalnya. Informasi yang dihadirkan adalah tulisan dan gambar. Tulisan-tulisan dan gambar tersebut dibagi-bagi ke dalam beberapa tipe: yang paling besar di atas adalah <i>header</i>, di bawahnya adalah <i>subheader</i>, dan isi tulisan adalah badan/<i>body</i> dari tulisan.</p>
+		
+		<p>HMTL membagi data-data tersebut ke dalam golongan-golongan yang disebut sebagai “elemen” atau “tag”. <i>Tag</i> ini menandai jenis dan kategori dari setiap informasi yang hendak dihadirkan.</p>
+		
+		<p>Semua halaman web, tanpa terkecuali, tersusun atas sekumpulan elemen/tag HTML yang menandai konten atau isi dari informasi yang mereka sajikan. Contohnya, tulisan di halaman web ini:</p>
+		
+		<p><b>Ini adalah paragraf.</b></p>
+		
+		<p>Walau pun tampak biasa, di dalam kode HTML, tulisan tersebut sebetulnya dijelaskan sebagai:</p>
+		
+		<p style="font-family:courier">&ltp&gt&ltb&gt Ini adalah paragraf. &lt/b&gt&lt/p&gt
+		</p>
+		
+		<p>&ltp&gt pada tulisan di atas digunakan untuk menandai suatu paragraf, dan &ltb&gt digunakan untuk menandai tulisan di dalam paragraf tersebut yang diberikan efek <b>bold</b>.</p>
+		
+		<p>Tag di dalam HTML umumnya diawali dengan golongan informasi tersebut yang dikurung dengan &lt...&gt, dan kemudian ditutup dengan &lt/...&gt. Dengan HTML, kita bisa menandai <i>header</i>, paragraf, <i>page break</i>, daftar, format tulisan, gambar, <i>link</i>, dan bahkan membuat tabel beserta data-data di dalamnya.</p>
+		
+		<h3>2. CSS</h3>
+		
+		<p>CSS atau <i>Cascading Style Sheet</i> menjelaskan bagaimana elemen-elemen HTML terlihat di sebuah halaman web. Jika HTML diibaratkan sebagai dinding, maka CSS adalah catnya. CSS membantu informasi dari HTML untuk terlihat sebagaimana yang pembuatnya kehendaki.</p>
+		
+		<p>CSS membuat kita bisa mengatur susunan layout, font, gambar latar belakang, dan warna-warni pada setiap elemen yang sudah kita tandai di HTML.</p>
+		
+		<p>Sebuah halaman web yang dibuat hanya dengan menggunakan HTML saja akan tampak seperti berikut:</p>
+		
+		<img src="gambar_html_tanpa_css.jpg">
+		
+		<p>Setelah menggunakan CSS untuk mengatur layout serta warna elemen, halaman web di atas dapat diubah menjadi lebih sedap dipandang seperti pada gambar di bawah ini:</p>
+		
+		<img src="gambar_html_dengan_css.jpg">
+		
+		<p>Singkatnya, CSS adalah serangkaian aturan yang mengendalikan setiap elemen-elemen di dalam HTML yang sudah ditandai dengan <i>tag</i>. CSS dapat mengendalikan satu <i>tag</i> tertentu, beberapa <i>tag</i> sekaligus, dan bahkan halaman web secara keseluruhan hanya dengan beberapa baris aturan saja.</p>
+		
+		<p>CSS dapat dibuat di dalam <i>file</i> HTML. Ada dua metode yang biasanya digunakan untuk membuat CSS di dalam <i>flle</i> HTML: pertama, membuatnya langsung di dalam <i>tag</i> elemen, dan kedua, membuatnya secara keseluruhan di dalam elemen <i>head</i> sebelum elemen <i>body</i>.</p>
+		
+		<p>Namun umumnya, <i>file</i> CSS dibuat terpisah dari <i>file</i> HTML, dengan keterangan di dalam <i>file</i> HTML bahwa halaman web yang dibuat dari <i>file</i> HTML tersebut menggunakan <i>file</i> CSS tertentu sebagai metode penampilan informasi yang terdapat di dalamnya.</p>
+
+		<h3>3. JavaScript</h3>
+		
+		<p>JavaScript berbeda lagi dengan HTML dan CSS. JavaScript adalah bahasa pemograman yang “sesungguhnya”, seperti halnya bahasa pemograman lain seperti C++ atau Phyton. JavaScript tidak seperti HTML dan CSS yang bertugas menampilkan atau mengatur data, melainkan juga dapat digunakan untuk <i>mengolah</i> data-data tersebut.</p>
+
+		<p>Pertama kali diluncurkan pada tahun 1995, JavaScript bisa dibilang merupakan bahasa wajib dalam pemograman web. JavaScript, bersama HTML dan CSS, merupakan bahasa yang membentuk halaman web yang dapat dibaca oleh semua dan segala jenis <i>browser</i> web.</p>
+		
+		<p>JavaScript adalah bahasa pemograman berbasis logika yang dapat digunakan untuk memodifikasi konten di dalam sebuah halaman web, dan membuatnya mampu merespon segala jenis perubahan informasi atau data yang dilakukan oleh pengguna/<i>end-user</i>.</p>
+		
+		<p>Salah satu contoh penggunaan JavaScript yang paling umum adalah untuk membuat <i>checkbox</i>, <i>form</i> pendaftaran yang dapat berinteraksi dengan <i>database</i>, dan mengatur proses <i>login</i> menggunakan <i>password</i>. Intinya, JavaScript adalah bahasa pemograman yang mengizinkan pembuatnya untuk membuat halaman web yang interaktif dan dinamis.</p>
+		
+		<p>Misalnya, dalam pembuatan <i>checkbox</i> atau <i>form</i>, di dalam kodenya biasanya terdapat sejenis <i>if... statement</i> yang memberikan respon berbeda tergantung apakah kita mencentang <i>checkbox</i> tersebut atau tidak, atau apakah kita mengisi <i>form</i> tersebut dengan benar atau belum.<p>
+		
+		<img src="gambar_js.jpg">
+		
+		<p>Di gambar di atas misal, menggunakan JavaScript, kita bisa menyimpan aksi pengguna yang menentukan isi dari dara tersebut, dan kemudian menampilkannya sesuai <i>input</i> yang mereka masukkan setelah halaman web tersebut di-<i>refresh</i>.</p>
+		
+		<p align="center">***</p>
+		
+		<p>Kesimpulannya: HTML, CSS, dan JavaScript bekerja dengan saling melengkapi satu sama lain. HTML bertugas membangun struktur dan menyusun informasi apa saja yang hendak disajikan, CSS mengatur bagaimana informasi tersebut disajikan, dan JavaScript mengendalikan bagaimana informasi tersebut bereaksi terhadap <i>input</i> dari pengguna.</p>
+		
+		<p>HTML dan CSS dapat kalian gunakan untuk membangun halaman web statis yang bertugas menampilkan informasi atau data saja dalam bentuk penyajian tertentu. Namun bila kalian ingin membuat halaman web yang dinamis, yang bisa memberikan reaksi tertentu terhadap input pengguna, maka JavaScript wajib diperlukan.</p>
+		
+		<p>Ketiganya sama-sama membentuk sebuah halaman web yang utuh, dan tidak dapat dipisahkan antara satu sama lainnya.</p>
+		
+	</body>
+	
+</html>
+		
+		
+		
